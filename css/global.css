@@ -101,7 +101,6 @@ body {
 
 .artigo-noticia figure {
     background-color: #e0e0e0;
-    min-height: 200px;
     border: 1px solid #cccccc;
     margin-bottom: 15px;
     text-align: center;
@@ -109,8 +108,12 @@ body {
 }
 
 .artigo-noticia figure img {
-    max-width: 100%;
-    height: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
 }
 
 .artigo-noticia figcaption {
